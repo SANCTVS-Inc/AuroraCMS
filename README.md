@@ -34,9 +34,10 @@ Here's an overview of the directory structure for AuroraCMS:
 ├── static/             # Static files like CSS, JavaScript, images
 │   └── js/             # Static javascript resource organization
 │   ├── css/            # Static css resource organization
-│   └── images/          # Static image resource organization
+│   └── images/         # Static image resource organization
 ├── tests/              # Unit and integration tests
-│   └── unit/, integration/  # Testing structure
+│   ├── unit/           # Unit testing structure
+│   └── integration/    # Integration testing structure
 └── themes/             # Theming folder for custom user interfaces
     └── default/        # Default theme
 ```
